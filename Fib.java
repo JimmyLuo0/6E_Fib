@@ -18,9 +18,11 @@ public class Fib {
     }
      /* These are class methods because it makes no sense to have an instance of
 	 a fib object and expect these methods to act differently based on those instances.
+	 
+	 If one is unwilling to wait a few seconds, n of ~40 seems to be 
+	 the highest
     */
-
-
+	
     /** 
       @return the nth Fibonacci number
               calculated via the 8th-grade algorithm
